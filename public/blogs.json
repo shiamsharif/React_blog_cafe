@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/FghPQbT/top-view-desk-concept-with-coffee.jpg",
+    "title": "Mastering Django: A Comprehensive Guide",
+    "author": "Jane Doe",
+    "author_img": "https://i.ibb.co/QPhd41d/front-view-young-male-red-shirt-black-wall.jpg",
+    "posted_date": "2024-01-15",
+    "reading_time": 12,
+    "hashtags": ["#Django", "#WebDevelopment", "#Programming"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/FghPQbT/top-view-desk-concept-with-coffee.jpg",
+    "title": "Understanding React: The Beginner's Handbook",
+    "author": "John Smith",
+    "author_img": "https://i.ibb.co/QPhd41d/front-view-young-male-red-shirt-black-wall.jpg",
+    "posted_date": "2024-02-20",
+    "reading_time": 8,
+    "hashtags": ["#React", "#JavaScript", "#Frontend"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/FghPQbT/top-view-desk-concept-with-coffee.jpg",
+    "title": "Advanced Python Techniques for Developers",
+    "author": "Alice Johnson",
+    "author_img": "https://i.ibb.co/QPhd41d/front-view-young-male-red-shirt-black-wall.jpg",
+    "posted_date": "2024-03-05",
+    "reading_time": 15,
+    "hashtags": ["#Python", "#Coding", "#Advanced"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/FghPQbT/top-view-desk-concept-with-coffee.jpg",
+    "title": "The Ultimate Guide to Machine Learning",
+    "author": "Bob Brown",
+    "author_img": "https://i.ibb.co/QPhd41d/front-view-young-male-red-shirt-black-wall.jpg",
+    "posted_date": "2024-04-10",
+    "reading_time": 20,
+    "hashtags": ["#MachineLearning", "#AI", "#DataScience"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/FghPQbT/top-view-desk-concept-with-coffee.jpg",
+    "title": "Building Scalable Web Apps with Node.js",
+    "author": "Eve Wilson",
+    "author_img": "https://i.ibb.co/QPhd41d/front-view-young-male-red-shirt-black-wall.jpg",
+    "posted_date": "2024-05-25",
+    "reading_time": 10,
+    "hashtags": ["#NodeJS", "#Backend", "#ScalableApps"]
+  }
+]
