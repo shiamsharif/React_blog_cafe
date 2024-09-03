@@ -4,7 +4,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types'; // ES6
 
 // eslint-disable-next-line react/prop-types
-const Blogs = ({ handleAddToBookmark }) => {
+const Blogs = ({ handleAddToBookmark, handelMakeAsRead }) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -21,6 +21,7 @@ const Blogs = ({ handleAddToBookmark }) => {
                 key={blog.id}
                 blog={blog}
                 handleAddToBookmark={handleAddToBookmark}
+                handelMakeAsRead={handelMakeAsRead}
             ></Blog>)
         }
     </div>
@@ -28,7 +29,8 @@ const Blogs = ({ handleAddToBookmark }) => {
 };
 
 Blogs.PropTypes = {
-  handleAddToBookmark: PropTypes.func
+  handleAddToBookmark: PropTypes.func,
+  handelMakeAsRead: PropTypes.func,
 }
 
 export default Blogs;
