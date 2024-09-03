@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="md:flex">
-      <Blogs></Blogs>
-      <Bookmarks></Bookmarks>
+      <div className="md:flex max-w-7xl mx-auto md:mx-4">
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
       </div>
     </>
   );
