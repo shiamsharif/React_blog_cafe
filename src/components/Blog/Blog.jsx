@@ -3,12 +3,12 @@ import { FaBookmark } from "react-icons/fa6";
 
 
 // eslint-disable-next-line react/prop-types
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
     // eslint-disable-next-line react/prop-types
     const {title, cover, reading_time, author, author_img, posted_date, hashtags} = blog;
     return (
         <div className='mb-20'>
-            <img src={cover} className='w-full mb-8' alt={`Cover picture of the tilte ${title}`} />
+            <img src={cover} className='w-full mb-8 rounded-xl' alt={`Cover picture of the tilte ${title}`} />
             <div className='flex justify-between mb-4'>
                 <div className='flex'>
                     <img src={author_img} className='w-14 rounded-full' alt="" />
@@ -17,9 +17,12 @@ const Blog = ({ blog }) => {
                         <p>{posted_date}</p>
                     </div>
                 </div>
-                <div>
+                <div className='flex justify-center items-center'>
                     <span>{reading_time} min read</span>
-                    <button className='ml-2 '><FaBookmark /></button>
+                    <button 
+                        onClick={() => handleAddToBookmark(blog)}
+                        className='ml-2  text-violet-600'><FaBookmark 
+                    /></button>
                 </div>
             </div>
             <h2 className='text-3xl'>{title}</h2>
@@ -34,7 +37,8 @@ const Blog = ({ blog }) => {
 };
 
 Blog.PropTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmark: PropTypes.func
 }
 
 export default Blog;
